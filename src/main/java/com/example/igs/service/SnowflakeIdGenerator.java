@@ -1,12 +1,14 @@
 package com.example.igs.service;
 
+import org.springframework.stereotype.Service;
+
 import java.time.Instant;
 
-
+//@Service
 public class SnowflakeIdGenerator {
     private static final long EPOCH = 1672531200000L; // January 1, 2023
-    private static final long SEQUENCE_BITS = 17L;
-    private static final long MACHINE_ID_BITS = 10L;
+    private static final long SEQUENCE_BITS = 12L;
+    private static final long MACHINE_ID_BITS = 10;
     private static final long TIMESTAMP_BITS = 41L;
 
     private static final long MAX_SEQUENCE = (1L << SEQUENCE_BITS) - 1; // 4095
