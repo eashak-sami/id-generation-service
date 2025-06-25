@@ -1,0 +1,119 @@
+{
+  "transactionType": "001",
+  "fromSvcId": "0000000123433",
+  "toSvcId": "023498889328",
+  "feeSlabConfig": [
+    {
+      "feeRateType": "F/R",
+      "feeValue": 100,
+      "feeLowerLimit": 5,
+      "feeUpperLimit": 100,
+      "feeBearerDistribution": [
+        {
+          "feeRateType": "F/R",
+          "feeValue": 15,
+          "feeLowerLimit": 5,
+          "feeUpperLimit": 100,
+          "fromRoleCd": "CU",
+          "toRoleCd": "ST",
+          "vatConfig": {
+            "feeRateType": "F/R",
+            "feeValue": 100,
+            "feeLowerLimit": 5,
+            "feeUpperLimit": 100,
+            "fromRoleCd": "CU",
+            "toRoleCd": "ST"
+          },
+          "commissionDistribution": [
+            {
+              "feeRateType": "F/R",
+              "feeValue": 0.1,
+              "feeLowerLimit": 5,
+              "feeUpperLimit": 100,
+              "fromRoleCd": "CU",
+              "toRoleCd": "ST",
+              "ait":
+              {
+                "feeRateType": "F/R",
+                "feeValue": 0.15,
+                "feeLowerLimit": 5,
+                "feeUpperLimit": 100,
+                "fromRoleCd": "CU",
+                "toRoleCd": "ST"
+              }
+            },
+            {
+              "feeRateType": "F/R",
+              "feeValue": 0.2,
+              "feeLowerLimit": 5,
+              "feeUpperLimit": 100,
+              "fromRoleCd": "CU",
+              "toRoleCd": "ST",
+              "ait":
+              {
+                "feeRateType": "F/R",
+                "feeValue": 0.15,
+                "feeLowerLimit": 5,
+                "feeUpperLimit": 100,
+                "fromRoleCd": "CU",
+                "toRoleCd": "ST"
+              }
+            }
+          ]
+        },
+        {
+          "feeRateType": "F/R",
+          "feeValue": 10,
+          "feeLowerLimit": 5,
+          "feeUpperLimit": 100,
+          "fromRoleCd": "CU",
+          "toRoleCd": "ST",
+          "vatConfig": {
+            "feeRateType": "F/R",
+            "feeValue": 100,
+            "feeLowerLimit": 5,
+            "feeUpperLimit": 100,
+            "fromRoleCd": "CU",
+            "toRoleCd": "ST"
+          },
+          "commissionDistribution": [
+            {
+              "feeRateType": "F/R",
+              "feeValue": 0.1,
+              "feeLowerLimit": 5,
+              "feeUpperLimit": 100,
+              "fromRoleCd": "CU",
+              "toRoleCd": "ST",
+              "ait":
+              {
+                "feeRateType": "F/R",
+                "feeValue": 0.15,
+                "feeLowerLimit": 5,
+                "feeUpperLimit": 100,
+                "fromRoleCd": "CU",
+                "toRoleCd": "ST"
+              }
+            },
+            {
+              "feeRateType": "F/R",
+              "feeValue": 0.2,
+              "feeLowerLimit": 5,
+              "feeUpperLimit": 100,
+              "fromRoleCd": "CU",
+              "toRoleCd": "ST",
+              "ait":
+              {
+                "feeRateType": "F/R",
+                "feeValue": 0.15,
+                "feeLowerLimit": 5,
+                "feeUpperLimit": 100,
+                "fromRoleCd": "CU",
+                "toRoleCd": "ST"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
